@@ -25,7 +25,7 @@ class MyApp:
         
     def sendpush(self):
         global serverPort
-        serverPort=54742
+        serverPort= 00000 //port
         global serverSocket
         serverSocket=socket(AF_INET, SOCK_STREAM)
         serverSocket.bind(('', serverPort))

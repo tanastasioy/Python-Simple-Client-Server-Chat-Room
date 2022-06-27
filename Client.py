@@ -24,9 +24,9 @@ class MyApp:
 
     def get(self):
         global serverName
-        serverName='192.168.2.2'
+        serverName='---' //serversIP
         global serverPort
-        serverPort=60043
+        serverPort=00000 //port
         global clientSocket
         clientSocket=socket(AF_INET,SOCK_STREAM)                
         clientSocket.connect((serverName,serverPort))           
